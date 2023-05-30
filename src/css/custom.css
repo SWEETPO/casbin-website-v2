@@ -311,3 +311,7 @@ html[data-theme="dark"]
     --ifm-spacing-horizontal: 1rem;
   }
 }
+
+.navbar__item.dropdown.dropdown--hoverable:has(.navbar-More) {
+  display: none;
+}
